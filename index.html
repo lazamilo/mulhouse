@@ -1,0 +1,289 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mulhouse, ville de tous les possibles</title>
+<meta name="robots" content="noindex">
+<link rel="icon" href="assets/img/favicon.png">
+<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="is-loading">
+
+<!-- Loader -->
+<div class="loader" aria-hidden="true">
+  <img src="assets/img/cropped-logo-mulhouse-blanc.png" alt="" class="loader__logo">
+</div>
+
+<!-- Header -->
+<header class="header" id="header">
+  <a href="#" class="header__logo" aria-label="Mulhouse, accueil"><img src="assets/img/cropped-logo-mulhouse-blanc.png" alt="Mulhouse"></a>
+  <nav class="header__nav" aria-label="Navigation principale">
+    <a href="#demarches">Mes démarches</a>
+    <a href="#actualites">Actualités</a>
+    <a href="#projets">Mulhouse se transforme</a>
+    <a href="#decouvrir">Découvrir</a>
+    <a href="#carte">Carte</a>
+  </nav>
+  <div class="header__actions">
+    <button class="icon-btn" data-open-search aria-label="Rechercher">
+      <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+    </button>
+    <button class="menu-btn" data-open-menu aria-expanded="false" aria-controls="mega">
+      <span>Menu</span><i></i>
+    </button>
+  </div>
+</header>
+
+<!-- Mega menu -->
+<div class="mega" id="mega" aria-hidden="true">
+  <div class="mega__inner">
+    <ul class="mega__cats">
+      <li><button data-cat="0" class="is-active">Mes démarches</button></li>
+      <li><button data-cat="1">Mairie</button></li>
+      <li><button data-cat="2">Mulhouse se transforme</button></li>
+      <li><button data-cat="3">Découvrir Mulhouse</button></li>
+      <li><button data-cat="4">Culture</button></li>
+      <li><button data-cat="5">Famille et jeunesse</button></li>
+      <li><button data-cat="6">Santé, solidarité, CCAS</button></li>
+      <li><button data-cat="7">Emploi</button></li>
+    </ul>
+    <div class="mega__panels">
+      <div class="mega__panel is-active"><a>S’installer à Mulhouse</a><a>Passeport &amp; CNI</a><a>Demande d’actes d’état civil</a><a>Inscriptions à l’école</a><a>Elections</a><a>Se marier / se pacser</a><a>Naissance et reconnaissance</a><a>Permis de construire</a><a>Recensement</a><a>FAQ</a></div>
+      <div class="mega__panel"><a>Maire</a><a>Adjoints et conseillers municipaux</a><a>Conseil municipal</a><a>Conseil municipal en vidéo</a><a>Budgets</a><a>Mulhouse en chiffre</a><a>Démocratie participative</a><a>Marchés publics</a><a>Commémorations</a></div>
+      <div class="mega__panel"><a>Quartier DMC</a><a>Les mobilités douces</a><a>Plan lumière</a><a>Nature en ville</a><a>Ville des intelligences</a><a>Plan écoles</a><a>Grand centre</a><a>Quartier gare</a><a>Renouvellement urbain</a></div>
+      <div class="mega__panel"><a>Commerces, marchés et artisanat</a><a>Mulhouse, ville attractive</a><a>Office de tourisme</a><a>Mulhouse ville 4 fleurs</a><a>Se rendre à Mulhouse</a><a>Histoire, patrimoine et mémoire</a><a>Jumelages et partenariats</a><a>Coopération transfrontalière</a></div>
+      <div class="mega__panel"><a>Graines de culture</a><a>Ville d’art et d’histoire</a><a>800 ans Mulhouse</a><a>Bibliothèques et médiathèques</a><a>Conservatoire</a><a>Théâtre de la Sinne</a><a>Les musées de la Ville</a><a>La Kunsthalle</a><a>Archives</a><a>Art en ville</a></div>
+      <div class="mega__panel"><a>Mulhouse, Ville Famille Plus</a><a>Mulhouse en famille</a><a>Les centres socioculturels</a><a>Enfants</a><a>Jeunesse</a><a>Parcours loisirs</a><a>Engage-toi !</a><a>Chantier jeune</a><a>Mobilité des jeunes</a></div>
+      <div class="mega__panel"><a>La santé à Mulhouse</a><a>Maison Sport-Santé</a><a>Ville Amie des Aînés</a><a>Mulhouse solidaire</a><a>Aides sociales</a><a>Logement et hébergement</a><a>CCAS</a><a>Demandez Angela</a></div>
+      <div class="mega__panel"><a>Rejoignez-nous !</a><a>Offres d’emploi</a><a>Stage, apprentissage &amp; jobs d’été</a></div>
+    </div>
+    <div class="mega__aside">
+      <div class="mega__img"><img src="assets/img/place-victoire.jpg" alt=""></div>
+      <p>Mairie de Mulhouse<br>2, rue Pierre et Marie Curie<br>68100 Mulhouse</p>
+      <a href="tel:0389325858" class="mega__tel">03 89 32 58 58</a>
+    </div>
+  </div>
+</div>
+
+<!-- Search overlay -->
+<div class="search" id="search" aria-hidden="true">
+  <button class="search__close" data-close-search aria-label="Fermer">Fermer</button>
+  <form class="search__form" onsubmit="return false">
+    <input type="search" placeholder="Que cherchez-vous ?" aria-label="Rechercher sur le site">
+  </form>
+  <div class="search__tags">
+    <a>Passeport &amp; CNI</a><a>Stationnement résidentiel</a><a>Inscriptions à l’école</a><a>Offres d’emploi</a><a>Objets trouvés</a><a>Cimetières</a><a>Travaux en cours</a>
+  </div>
+</div>
+
+<main>
+
+<!-- Hero -->
+<section class="hero" id="top">
+  <div class="hero__media">
+    <div class="hero__slide is-active"><img src="assets/img/gen/hero-aerial.jpg" alt="Mulhouse à l’heure bleue"></div>
+    <div class="hero__slide"><img src="assets/img/ETP3379_place-de-la-reunion_Eric_Toussaint.jpg" alt="Place de la Réunion"></div>
+    <div class="hero__slide"><img src="assets/img/Gare-05.jpg" alt="La gare de Mulhouse de nuit"></div>
+    <div class="hero__slide"><img src="assets/img/Mulhouse.jpg" alt="Le Temple Saint-Étienne"></div>
+  </div>
+  <div class="hero__shade"></div>
+  <div class="hero__content">
+    <h1 class="hero__title" data-split>Mulhouse,<br><span>ville de tous</span><br><span>les possibles</span></h1>
+    <div class="hero__bottom">
+      <button class="hero__search" data-open-search>
+        <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.8"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>
+        <span>Une démarche, un service, un lieu…</span>
+      </button>
+      <div class="hero__counter"><b>01</b><i><em></em></i><span>04</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- Accès rapides -->
+<section class="quick" id="demarches">
+  <div class="quick__head">
+    <h2 class="h-xl reveal">L’essentiel,<br><span class="mute">en un clic.</span></h2>
+    <p class="lead reveal">Vos démarches et les services du quotidien, accessibles en ligne à toute heure.</p>
+  </div>
+  <ul class="quick__list">
+    <li><a href="#" data-img="assets/img/Mairie_fleurissement_ete_2025.jpg"><span>Démarches en ligne</span><b>→</b></a></li>
+    <li><a href="#" data-img="assets/img/Commerces-03-photoCK.jpg"><span>Parking et stationnement</span><b>→</b></a></li>
+    <li><a href="#" data-img="assets/img/Chantier-jeune-2.jpg"><span>Offres d’emploi</span><b>→</b></a></li>
+    <li><a href="#" data-img="assets/img/Mobilites-douces.jpg"><span>Travaux en cours</span><b>→</b></a></li>
+    <li><a href="#" data-img="assets/img/TWITTER_ALLOPROX-APPLI_800x418.jpg"><span>Allo proximité</span><b>→</b></a></li>
+    <li><a href="#" data-img="assets/img/DECOUVRIR-MULHOUSE-Tour_du_Bollwerk_2024.jpg"><span>Webcam</span><b>→</b></a></li>
+    <li><a href="#" data-img="assets/img/M_ta_sante_2024.jpg"><span>Numéros d’urgence</span><b>→</b></a></li>
+  </ul>
+  <div class="quick__float" aria-hidden="true"><img alt=""></div>
+</section>
+
+<!-- Actualités -->
+<section class="news" id="actualites">
+  <div class="sec-head">
+    <h2 class="h-xl reveal">À la une</h2>
+    <a href="#" class="link-arrow reveal">Toutes les actualités <b>→</b></a>
+  </div>
+  <div class="news__grid">
+    <article class="news__feat reveal">
+      <div class="frame"><img src="assets/img/Recrutement_nouveaux_conseillers_quartier.jpg" alt="" data-parallax></div>
+      <div class="news__meta"><span class="tag">Mairie</span><time>Novembre 2026</time></div>
+      <h3>FabriQ de quartier : votre avis compte, vos idées aussi, devenez ambassadeur de votre quartier !</h3>
+    </article>
+    <article class="news__card reveal">
+      <div class="frame"><img src="assets/img/gen/concert.jpg" alt="" data-parallax></div>
+      <div class="news__meta"><span class="tag">Mairie</span></div>
+      <h3>Retrouvez le Conseil municipal en vidéo !</h3>
+    </article>
+    <article class="news__card reveal">
+      <div class="frame"><img src="assets/img/Quinzaine_Diabete_2023.jpg" alt="" data-parallax></div>
+      <div class="news__meta"><span class="tag">Santé</span></div>
+      <h3>Mulhouse se mobilise pour la quinzaine du diabète</h3>
+    </article>
+    <article class="news__card reveal">
+      <div class="frame"><img src="assets/img/TWITTER_ALLOPROX-APPLI_800x418.jpg" alt="" data-parallax></div>
+      <div class="news__meta"><span class="tag">Pratique</span></div>
+      <h3>Signalez les dysfonctionnements sur l’espace public avec Allo Proximité</h3>
+    </article>
+    <article class="news__card reveal">
+      <div class="frame"><img src="assets/img/gen/noel.jpg" alt="" data-parallax></div>
+      <div class="news__meta"><span class="tag">Événement</span></div>
+      <h3>Noël à Mulhouse : l’étoffe illumine la place de la Réunion</h3>
+    </article>
+  </div>
+</section>
+
+<!-- Manifesto -->
+<section class="manifesto">
+  <div class="manifesto__bg"><img src="assets/img/gen/textile.jpg" alt=""></div>
+  <p class="manifesto__text" data-words>Cité du textile devenue capitale européenne de l’automobile et du train, ville d’art et d’histoire au cœur de l’espace trinational, Mulhouse se réinvente chaque jour avec ses habitants.</p>
+  <div class="stats">
+    <div class="stat"><b data-count="800">0</b><span>ans d’histoire partagée</span></div>
+    <div class="stat"><b data-count="4">0</b><span>fleurs au label Villes et Villages fleuris</span></div>
+    <div class="stat"><b data-count="3">0</b><span>pays à moins de 30 minutes</span></div>
+    <div class="stat"><b data-count="37">0</b><span>numéros du magazine M+</span></div>
+  </div>
+</section>
+
+<!-- Grands projets (horizontal) -->
+<section class="projects" id="projets">
+  <div class="projects__pin">
+    <div class="projects__progress"><i></i></div>
+    <div class="projects__track">
+      <div class="projects__intro">
+        <h2 class="h-xl">Mulhouse<br><span class="mute">se transforme</span></h2>
+        <p class="lead">Six chantiers qui dessinent la ville de demain, quartier après quartier.</p>
+      </div>
+      <article class="proj"><div class="frame"><img src="assets/img/Vue_aerienne_quartier_Coteaux.jpg" alt=""></div><span class="proj__n">01</span><h3>Le programme de renouvellement urbain</h3></article>
+      <article class="proj"><div class="frame"><img src="assets/img/Marche.jpg" alt=""></div><span class="proj__n">02</span><h3>Le marché du canal couvert</h3></article>
+      <article class="proj"><div class="frame"><img src="assets/img/berges.jpg" alt=""></div><span class="proj__n">03</span><h3>Les berges de l’Ill</h3></article>
+      <article class="proj"><div class="frame"><img src="assets/img/Gare-05.jpg" alt=""></div><span class="proj__n">04</span><h3>La ZAC Gare</h3></article>
+      <article class="proj"><div class="frame"><img src="assets/img/DMC.jpg" alt=""></div><span class="proj__n">05</span><h3>Le quartier DMC</h3></article>
+      <article class="proj"><div class="frame"><img src="assets/img/gen/tram.jpg" alt=""></div><span class="proj__n">06</span><h3>Les mobilités douces</h3></article>
+    </div>
+  </div>
+</section>
+
+<!-- Découvrir (sticky stacked) -->
+<section class="discover" id="decouvrir">
+  <div class="sec-head">
+    <h2 class="h-xl reveal">Vivre Mulhouse</h2>
+    <a href="#" class="link-arrow reveal">Découvrir Mulhouse <b>→</b></a>
+  </div>
+  <div class="stack">
+    <article class="stack__card" style="--i:0">
+      <img src="assets/img/gen/automobile.jpg" alt="">
+      <div class="stack__txt"><h3>Capitale des musées techniques</h3><p>De la Cité de l’Automobile à la Cité du Train, une collection unique au monde.</p><a href="#" class="btn">Les musées <b>→</b></a></div>
+    </article>
+    <article class="stack__card" style="--i:1">
+      <img src="assets/img/Mulhouse-1.jpg" alt="">
+      <div class="stack__txt"><h3>Ville d’art et d’histoire</h3><p>Huit siècles de patrimoine, du Temple Saint-Étienne aux façades peintes de l’hôtel de ville.</p><a href="#" class="btn">Le patrimoine <b>→</b></a></div>
+    </article>
+    <article class="stack__card" style="--i:2">
+      <img src="assets/img/gen/concert.jpg" alt="">
+      <div class="stack__txt"><h3>Une scène qui vibre</h3><p>La Filature, l’Orchestre National de Mulhouse, le Théâtre de la Sinne, la Kunsthalle et le Noumatrouff.</p><a href="#" class="btn">Agenda culturel <b>→</b></a></div>
+    </article>
+    <article class="stack__card" style="--i:3">
+      <img src="assets/img/gen/riverside.jpg" alt="">
+      <div class="stack__txt"><h3>Nature en ville</h3><p>Parcs, berges réaménagées et pistes cyclables : Mulhouse respire, ville 4 fleurs.</p><a href="#" class="btn">Nature en ville <b>→</b></a></div>
+    </article>
+    <article class="stack__card" style="--i:4">
+      <img src="assets/img/running_reconnaissance_oct_2017_06.jpg" alt="">
+      <div class="stack__txt"><h3>Ville de running et de sport</h3><p>Team Mulhouse, Mulhouse sport santé, parcours d’excellence sportive : tout le monde bouge.</p><a href="#" class="btn">Le sport <b>→</b></a></div>
+    </article>
+  </div>
+</section>
+
+<!-- Carte -->
+<section class="map" id="carte">
+  <div class="map__media"><img src="assets/img/batiment-annulaire-mulhouse.png" alt="Vue aérienne de Mulhouse" data-parallax></div>
+  <div class="map__content">
+    <h2 class="h-xl">La ville,<br>à portée de carte</h2>
+    <p class="lead">Recherchez des lieux sur la carte interactive et explorez Mulhouse en 3D.</p>
+    <div class="chips">
+      <a>Parcs et espaces verts</a><a>Sites culturels</a><a>Équipements sportifs</a><a>Éducation</a><a>Toilettes publiques</a>
+    </div>
+    <div class="map__ctas">
+      <a href="#" class="btn btn--light">Carte interactive <b>→</b></a>
+      <a href="#" class="btn btn--ghost">Mulhouse en 3D <b>→</b></a>
+    </div>
+  </div>
+</section>
+
+<!-- M+ Kiosque -->
+<section class="kiosk">
+  <div class="kiosk__left">
+    <img src="assets/img/m_RVB.png" alt="M+ Votre Mulhouse" class="kiosk__logo">
+    <h2 class="h-xl">Toute l’info de Mulhouse, à portée de clic.</h2>
+    <p class="lead">Restez connectés en temps réel avec le webzine mplusinfo.fr, l’application et le magazine M+.</p>
+    <div class="kiosk__apps">
+      <a href="#" class="btn btn--light">App Store <b>↗</b></a>
+      <a href="#" class="btn btn--light">Google Play <b>↗</b></a>
+    </div>
+  </div>
+  <div class="kiosk__mags">
+    <figure class="mag"><img src="assets/img/m37.jpg" alt="M+ n°37"><figcaption>Mag N°37<span>Feuilleter · Télécharger</span></figcaption></figure>
+    <figure class="mag"><img src="assets/img/mplus-mag-numero-36.jpg" alt="M+ n°36"><figcaption>Mag N°36<span>Feuilleter · Télécharger</span></figcaption></figure>
+    <figure class="mag"><img src="assets/img/mag35.jpg" alt="M+ n°35"><figcaption>Mag N°35<span>Feuilleter · Télécharger</span></figcaption></figure>
+    <figure class="mag"><img src="assets/img/mmag34.jpg" alt="M+ n°34"><figcaption>Mag N°34<span>Feuilleter · Télécharger</span></figcaption></figure>
+    <figure class="mag"><img src="assets/img/m33.jpg" alt="M+ n°33"><figcaption>Mag N°33<span>Feuilleter · Télécharger</span></figcaption></figure>
+  </div>
+</section>
+
+</main>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="footer__grid">
+    <div>
+      <h4>Adresse</h4>
+      <p>Mairie de Mulhouse<br>2, rue Pierre et Marie Curie<br>68100 Mulhouse</p>
+      <a class="footer__big" href="tel:0389325858">03 89 32 58 58</a>
+      <p class="small">Standard du lundi au vendredi,<br>8h30 à 12h et 13h30 à 17h</p>
+    </div>
+    <div>
+      <h4>Horaires, entrée C</h4>
+      <p>État civil, CNI et passeports,<br>formalités administratives.<br>Vendredi en continu jusqu’à 20h.</p>
+      <h4>Entrée A</h4>
+      <p>Accueil et bureaux des élus<br>du lundi au vendredi, 8h à 12h et 13h30 à 17h30</p>
+    </div>
+    <div>
+      <h4>Nous contacter</h4>
+      <a>Allo proximité</a><a>Contacter M+</a><a>Contacter la Mairie</a>
+      <h4>Suivez-nous</h4>
+      <a href="https://www.instagram.com/mulhouse.officiel/">Instagram</a><a href="https://www.facebook.com/MplusInfo">Facebook</a><a href="https://www.youtube.com/channel/UCXSLPjApIAs6pzV2pkFHCCw">YouTube</a>
+    </div>
+  </div>
+  <div class="footer__logo"><img src="assets/img/cropped-logo-mulhouse-blanc.png" alt="Mulhouse"></div>
+  <div class="footer__legal">
+    <span>© 2026 Ville de Mulhouse</span>
+    <nav><a>Mentions légales</a><a>Politique de confidentialité</a><a>Accessibilité</a><a>Plan du site</a><a>Gestion des cookies</a></nav>
+  </div>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+<script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body>
+</html>
